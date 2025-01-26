@@ -10,6 +10,7 @@ según los números ingresados por el usuario.
 El diseño del programa está orientado a la modularidad, utilizando clases específicas para cada funcionalidad, y hace 
 uso extensivo de genéricos y delegados para garantizar flexibilidad y escalabilidad.
 
+
 Métodos Principales
 
 1. Métodos de la Clase ListaNum​
@@ -41,6 +42,7 @@ TipoDatoNombre: Devuelve un nombre amigable para el tipo de dato genérico.
 7. Método Principal en Program​
 Main: Punto de entrada del programa, que inicia el menú principal.
 
+
 Excepciones Manejadas
 
 Formato Inválido:
@@ -69,10 +71,12 @@ Causa: Error desconocido durante la ejecución.
 Manejo: Muestra un mensaje genérico con el detalle del error.
 Uso de Genéricos y Delegados
 
+
 Genéricos:
 
 La clase ListaNum<T> permite manejar diferentes tipos de datos numéricos (int, float, double, decimal), garantizando flexibilidad.
 Los métodos en Operaciones también son genéricos, adaptándose al tipo de dato definido en tiempo de ejecución.
+
 
 Delegados:
 
